@@ -1,0 +1,99 @@
+/* frontend/src/components/EmployeeList.css */
+
+.employee-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.employee-list-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.employee-list-container h1 {
+    color: #007bff;
+}
+
+.employee-list-container .actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.employee-list-container input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.employee-list-container .create-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.employee-list-container .create-button:hover {
+    background-color: #0056b3;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.employee-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.employee-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.employee-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.edit-button,
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.edit-button {
+    color: #007bff;
+}
+
+.delete-button {
+    color: #ff4d4d;
+}
+
+.edit-button:hover {
+    text-decoration: underline;
+}
+
+.delete-button:hover {
+    text-decoration: underline;
+}

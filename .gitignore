@@ -1,0 +1,71 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage/
+*.lcov
+.nyc_output/
+
+# MongoDB (e.g., database dumps or data files)
+*.lock
+*.sock
+*.pid
+*.info
+
+# Build output
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Editor and IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# React build
+frontend/build/
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Images stored in buffers (avoid unnecessary image data in repo)
+uploads/
+public/images/
+
+# macOS files
+.DS_Store
+
+# ESLint and Prettier files
+.eslintcache
+*.prettierrc
+
+# Other
+*.log
+coverage/
